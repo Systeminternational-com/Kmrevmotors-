@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMR EV Motors | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <!-- CALL NUMBER HERE -->
+            <span><i class="fas fa-phone-alt"></i> +91 9910426104</span>
+            <span><i class="fas fa-envelope"></i> sales.elesco@gmail.com</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2 style="color: var(--text-dark);">KMR <span class="text-green">EV MOTORS</span></h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="profile.html">Company Profile</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Main Slideshow Section -->
+    <section class="hero-slider" data-aos="fade-in">
+        <div class="slide active">
+            <img src="images/slide1.jpg" alt="EV Slide 1">
+            <div class="slide-content">
+                <h1>Green is the <span class="text-green">New Gold</span></h1>
+                <p>100% Guaranteed Quality ELESCO Vehicles</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/slide2.jpg" alt="EV Slide 2">
+            <div class="slide-content">
+                <h1>High Performance</h1>
+                <p>Up to 180KM Range on a Single Charge</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/slide3.jpg" alt="EV Slide 3">
+            <div class="slide-content">
+                <h1>Zero Emissions</h1>
+                <p>Protecting the environment for future generations</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/slide4.jpg" alt="EV Slide 4">
+            <div class="slide-content">
+                <h1>Easy EMI Options</h1>
+                <p>Making electric mobility affordable for everyone</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Intro -->
+    <section class="company-intro container" data-aos="fade-up">
+        <h2 class="section-title">Welcome to <span class="text-green">KMR EV Motors</span></h2>
+        <p class="text-center">As an authorized dealer for ELESCO Electric Vehicles in Hyderabad, we are dedicated to transforming urban mobility. Our mission is to provide high-quality, reliable, and eco-friendly transportation solutions. We don't just sell scooters; we sell a sustainable lifestyle that saves you money and protects our planet.</p>
+    </section>
+
+    <!-- NEW PRODUCT SHOWCASE SLIDER -->
+    <section class="product-showcase" data-aos="fade-up">
+        <div class="showcase-header">
+            <h2>Best E Bike Manufacturers In India</h2>
+        </div>
+        
+        <div class="product-carousel">
+            <button id="prevBike" class="bike-arrow"><i class="fas fa-arrow-left"></i></button>
+            
+            <div class="bike-track">
+                
+                <!-- Bike 1: Broch -->
+                <div class="bike-slide active">
+                    <div class="bike-image-container">
+                        <img src="images/bike-broch.png" alt="Broch E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #556B2F;"></span>
+                            <span style="background: #000000;"></span>
+                            <span style="background: #0000CD;"></span>
+                            <span style="background: #FF4500;"></span>
+                            <span style="background: #E8E8E8;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Broch</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <!-- Data-bike attribute passes the name to WhatsApp -->
+                            <button class="book-now-btn" data-bike="Broch">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike 2: Big Show -->
+                <div class="bike-slide">
+                    <div class="bike-image-container">
+                        <img src="images/bike-bigshow.png" alt="Big Show E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #000000;"></span>
+                            <span style="background: #556B2F;"></span>
+                            <span style="background: #E8E8E8;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Big Show</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <button class="book-now-btn" data-bike="Big Show">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike 3: Etorq -->
+                <div class="bike-slide">
+                    <div class="bike-image-container">
+                        <img src="images/bike-etorq.png" alt="Etorq E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #008000;"></span>
+                            <span style="background: #000000;"></span>
+                            <span style="background: #0000CD;"></span>
+                            <span style="background: #4B0082;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Etorq</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <button class="book-now-btn" data-bike="Etorq">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike 4: Eroyal Pro -->
+                <div class="bike-slide">
+                    <div class="bike-image-container">
+                        <img src="images/bike-eroyalpro.png" alt="Eroyal Pro E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #E8E8E8;"></span>
+                            <span style="background: #000000;"></span>
+                            <span style="background: #FF0000;"></span>
+                            <span style="background: #0000CD;"></span>
+                            <span style="background: #8B4513;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Eroyal Pro</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <button class="book-now-btn" data-bike="Eroyal Pro">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike 5: Eroyal -->
+                <div class="bike-slide">
+                    <div class="bike-image-container">
+                        <img src="images/bike-eroyal.png" alt="Eroyal E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #FF0000;"></span>
+                            <span style="background: #000000;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Eroyal</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <button class="book-now-btn" data-bike="Eroyal">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike 6: Classic -->
+                <div class="bike-slide">
+                    <div class="bike-image-container">
+                        <img src="images/bike-classic.png" alt="Classic E-Bike">
+                    </div>
+                    <div class="bike-info-container">
+                        <p class="colors-label">Available In Colors :</p>
+                        <div class="color-swatches">
+                            <span style="background: #E8E8E8;"></span>
+                            <span style="background: #000000;"></span>
+                            <span style="background: #FFFFFF; border: 1px solid #ccc;"></span>
+                            <span style="background: #4B0082;"></span>
+                        </div>
+                        <h3 class="bike-model-name">Classic</h3>
+                        <div class="dark-spec-card">
+                            <div class="spec-data"><span>Top Speed</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Acceleration</span><strong>0-25 kmph</strong></div>
+                            <div class="spec-data"><span>Range</span><strong>50-150 km*</strong></div>
+                            <div class="spec-data"><span>Motor Power</span><strong>250W</strong></div>
+                            <button class="book-now-btn" data-bike="Classic">Booking Now <i class="fas fa-motorcycle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <button id="nextBike" class="bike-arrow"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <!-- ... [Content Remains the Same] ... -->
+        <div class="stats-overlay"></div>
+        <div class="container stats-container">
+            <h2 data-aos="fade-down">Sustainable Today for a <span class="text-green-light">Greener Tomorrow...</span></h2>
+            <div class="stat-item" data-aos="fade-right" data-aos-delay="100">
+                <i class="fas fa-motorcycle stat-icon"></i>
+                <div class="stat-text"><p>Total EVs Manufactured</p><h3>2,50,000+</h3></div>
+            </div>
+            <div class="stat-item" data-aos="fade-right" data-aos-delay="200">
+                <i class="fas fa-gas-pump stat-icon"></i>
+                <div class="stat-text"><p>Saved Approximately as fuel cost</p><h3>Rs.12.5 Billion*</h3></div>
+            </div>
+            <div class="stat-item" data-aos="fade-right" data-aos-delay="300">
+                <i class="fas fa-cloud stat-icon"></i>
+                <div class="stat-text"><p>kilograms of Carbon Dioxide Saved</p><h3>300 Million*</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Smart <span class="text-green">Features</span></h2>
+            <div class="feature-grid">
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="50"><i class="fab fa-usb"></i><p>USB Port</p></div>
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="100"><i class="fas fa-motorcycle"></i><p>Side Stand Sensor</p></div>
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="150"><i class="fas fa-circle-notch"></i><p>Disc Brake</p></div>
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-backward"></i><p>Reverse Mode</p></div>
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="250"><i class="fas fa-dharmachakra"></i><p>Alloy Wheel</p></div>
+                <div class="feature-card" data-aos="flip-left" data-aos-delay="300"><i class="fas fa-shield-alt"></i><p>Anti-Theft Tech</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section class="specs container" data-aos="fade-up">
+        <h2 class="section-title">Technical <span class="text-green">Specifications</span></h2>
+        <div class="specs-box">
+            <ul>
+                <li><strong>Motor:</strong> High Torque Sine Wave</li>
+                <li><strong>Battery:</strong> Lithium Ion Redon (48V 32AH; 60V 32AH; 72V 32AH)</li>
+                <li><strong>Range:</strong> 60-180 KM</li>
+                <li><strong>Payload:</strong> 200 KG</li>
+                <li><strong>Charging:</strong> 4-5 Hours</li>
+                <li><strong>Colours:</strong> Red, Blue, Silver, Green, White</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="site-footer">
+        <div class="container" data-aos="fade-up">
+            <p class="footer-about">The foundation stone of KMR EV MOTORS, laid back to design, manufacture and deliver Electric vehicles based on both lead acid as well as graphene battery technology. Over these years in the domain, our company has overcome many milestones and become one of the leading Electric 2 Wheeler Dealers in Hyderabad. All our bikes, scooters and vehicles are designed for riders to enhance their experience and give customers value for money.</p>
+
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="profile.html">About Us</a></li>
+                <li><a href="#">Our Presence</a></li>
+                <li><a href="#">Our Websites</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <h3 class="footer-heading">Product Links</h3>
+            <ul class="footer-links">
+                <li><a href="#">Electric Vehicle</a></li>
+                <li><a href="#">Electric Scooter</a></li>
+                <li><a href="#">Battery Scooty</a></li>
+                <li><a href="#">E Scooter</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 KMR EV Motors | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Bottom Contact Bar -->
+    <div class="floating-bar">
+        <!-- CALL NUMBER -->
+        <a href="tel:+919910426104" class="float-btn btn-call"><i class="fas fa-phone-alt"></i> Call Us</a>
+        <!-- WHATSAPP NUMBER -->
+        <a href="https://wa.me/919876543210" target="_blank" class="float-btn btn-wa"><i class="fab fa-whatsapp"></i> Whats App</a>
+        <button id="enquiryBtn" class="float-btn btn-enq"><i class="fas fa-file-alt"></i> Enquiry</button>
+    </div>
+
+    <!-- Enquiry Modal -->
+    <div id="enquiryModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Send us an Enquiry</h2>
+            <form id="enquiryForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
