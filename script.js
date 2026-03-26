@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 5. NEW: Booking WhatsApp Logic for Product Slider
     // UPDATE THIS WITH YOUR ACTUAL WHATSAPP NUMBER (Country Code + Number, no + sign)
-    const WHATSAPP_NUMBER = "919876543210"; 
+    const WHATSAPP_NUMBER = "919666363922"; 
     
     const bookButtons = document.querySelectorAll('.book-now-btn');
     bookButtons.forEach(button => {
